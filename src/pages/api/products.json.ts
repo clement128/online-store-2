@@ -1,5 +1,5 @@
 import type { APIRoute } from "astro";
-import { getProducts } from "@/lib/shopify";
+import { getProducts } from "@/lib/shopify/index.mock";
 
 export const GET: APIRoute = async ({ request }) => {
   const url = new URL(request.url);

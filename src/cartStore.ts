@@ -1,6 +1,6 @@
 import { atom, computed } from "nanostores";
 import Cookies from "js-cookie";
-import { getCart } from "@/lib/shopify";
+import { getCart } from "@/lib/shopify/index.mock";
 import {
   addItem,
   removeItem,

@@ -10,7 +10,7 @@ import {
   getHighestProductPrice,
   getProducts,
   getVendors,
-} from "@/lib/shopify";
+} from "@/lib/shopify/index.mock";
 import type { PageInfo, Product } from "@/lib/shopify/types";
 import CallToAction from "@/partials/CallToAction.astro";
 
@@ -78,8 +78,8 @@ if (searchValue || brand || minPrice || maxPrice || category || tag) {
   const uniqueVendors: string[] = [
     ...new Set(
       ((productsData?.products as Product[]) || []).map((product: Product) =>
-        String(product?.vendor || "")
-      )
+        String(product?.vendor || ""),
+      ),
     ),
   ];
 
@@ -87,16 +87,16 @@ if (searchValue || brand || minPrice || maxPrice || category || tag) {
     ...new Set(
       ((productsData?.products as Product[]) || []).flatMap(
         (product: Product) =>
-          product.collections.nodes.map(
-            (collectionNode: any) => collectionNode.title || ""
-          )
-      )
+          product?.collections?.nodes?.map(
+            (collectionNode: any) => collectionNode.title || "",
+          ),
+      ),
     ),
   ];
 
   vendorsWithCounts = uniqueVendors.map((vendor: string) => {
     const productCount = (productsData?.products || []).filter(
-      (product: Product) => product?.vendor === vendor
+      (product: Product) => product?.vendor === vendor,
     ).length;
     return { vendor, productCount };
   });
@@ -104,9 +104,9 @@ if (searchValue || brand || minPrice || maxPrice || category || tag) {
   categoriesWithCounts = uniqueCategories.map((category: string) => {
     const productCount = ((productsData?.products as Product[]) || []).filter(
       (product: Product) =>
-        product.collections.nodes.some(
-          (collectionNode: any) => collectionNode.title === category
-        )
+        product?.collections?.nodes?.some(
+          (collectionNode: any) => collectionNode.title === category,
+        ),
     ).length;
     return { category, productCount };
   });
@@ -131,7 +131,7 @@ const tags = [
   ...new Set(
     (
       productsData as { pageInfo: PageInfo; products: Product[] }
-    )?.products.flatMap((product: Product) => product.tags)
+    )?.products.flatMap((product: Product) => product.tags),
   ),
 ];
 

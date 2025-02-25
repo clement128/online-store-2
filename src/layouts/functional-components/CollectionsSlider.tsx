@@ -9,11 +9,12 @@ import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SkeletonCategory from "./loadings/skeleton/SkeletonCategory";
+import type { Collection } from "@/lib/shopify/types";
 
-const CollectionsSlider = ({ collections }: { collections: any }) => {
+const CollectionsSlider = ({ collections }: { collections: Collection[] }) => {
   const [_, setInit] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-  const [collectionsData, setCollectionsData] = useState([]);
+  const [collectionsData, setCollectionsData] = useState<Collection[]>([]);
   const [loadingCollectionsData, setLoadingCollectionsData] = useState(true);
 
   const prevRef = useRef(null);
@@ -60,8 +61,8 @@ const CollectionsSlider = ({ collections }: { collections: any }) => {
         //trigger a re-render by updating the state on swiper initialization
         onInit={() => setInit(true)}
       >
-        {collectionsData?.map((item: any) => {
-          const { title, handle, image, } = item;
+        {collectionsData?.map((item) => {
+          const { title, handle, image } = item;
           return (
             <SwiperSlide key={handle}>
               <div className="text-center relative">
@@ -91,10 +92,11 @@ const CollectionsSlider = ({ collections }: { collections: any }) => {
         })}
 
         <div
-          className={`hidden md:block w-full absolute top-[33%] z-10 px-4 text-dark ${isHovered
-            ? "opacity-100 transition-opacity duration-300 ease-in-out"
-            : "opacity-0 transition-opacity duration-300 ease-in-out"
-            }`}
+          className={`hidden md:block w-full absolute top-[33%] z-10 px-4 text-dark ${
+            isHovered
+              ? "opacity-100 transition-opacity duration-300 ease-in-out"
+              : "opacity-0 transition-opacity duration-300 ease-in-out"
+          }`}
         >
           <div
             ref={prevRef}

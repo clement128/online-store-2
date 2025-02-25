@@ -1,4 +1,4 @@
-import { getUserDetails } from "@/lib/shopify";
+import { getUserDetails } from "@/lib/shopify/index.mock";
 import type { user } from "@/lib/shopify/types";
 import Cookies from "js-cookie";
 import React, { useEffect, useState } from "react";
@@ -53,10 +53,7 @@ const NavUser = ({ pathname }: { pathname: string }) => {
         >
           <div className="flex items-center gap-x-1">
             <div className="h-6 w-6 border border-darkmode-border dark:border-border rounded-full">
-              <Gravatar
-                email={user?.email}
-                style={{ borderRadius: "50px" }}
-              />
+              <Gravatar email={user?.email} style={{ borderRadius: "50px" }} />
             </div>
             <div className="leading-none max-md:hidden">
               <div className="flex items-center">
@@ -91,7 +88,10 @@ const NavUser = ({ pathname }: { pathname: string }) => {
 
       {dropdownOpen && (
         <div className="z-20 text-center absolute w-full bg-white shadow-md rounded mt-2">
-          <button onClick={handleLogout} className="btn btn-primary max-md:btn-sm mt-2">
+          <button
+            onClick={handleLogout}
+            className="btn btn-primary max-md:btn-sm mt-2"
+          >
             Logout
           </button>
         </div>

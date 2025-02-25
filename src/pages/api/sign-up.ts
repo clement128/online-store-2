@@ -1,4 +1,7 @@
-import { createCustomer, getCustomerAccessToken } from "@/lib/shopify";
+import {
+  createCustomer,
+  getCustomerAccessToken,
+} from "@/lib/shopify/index.mock";
 import type { APIRoute } from "astro";
 
 export const POST: APIRoute = async ({ request }) => {

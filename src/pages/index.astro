@@ -3,7 +3,10 @@ import FeaturedProducts from "@/components/FeaturedProducts.astro";
 import config from "@/config/config.json";
 import CollectionsSlider from "@/functional-components/CollectionsSlider";
 import Base from "@/layouts/Base.astro";
-import { getCollectionProducts, getCollections } from "@/lib/shopify";
+import {
+  getCollectionProducts,
+  getCollections,
+} from "@/lib/shopify/index.mock";
 import CallToAction from "@/partials/CallToAction.astro";
 import HeroSlider from "src/layouts/functional-components/HeroSlider";
 

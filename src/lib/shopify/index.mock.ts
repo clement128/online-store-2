@@ -30,8 +30,7 @@ export async function removeFromCart(
   lineIds: string[],
 ): Promise<Cart> {
   // Remove items from the cart and return updated cart
-  const cart = DummyData.createCart(cartId);
-  return cart;
+  return DummyData.createCart(cartId);
 }
 
 export async function updateCart(
@@ -39,8 +38,7 @@ export async function updateCart(
   lines: { id: string; merchandiseId: string; quantity: number }[],
 ): Promise<Cart> {
   // Update cart items and return updated cart
-  const cart = DummyData.createCart(cartId);
-  return cart;
+  return DummyData.createCart(cartId);
 }
 
 export async function getCart(cartId: string): Promise<Cart | undefined> {
@@ -53,9 +51,7 @@ export async function getCollection(
   handle: string,
 ): Promise<Collection | undefined> {
   // Return a collection based on handle
-  return handle
-    ? DummyData.createCollection(parseInt(handle.split("-").pop() || "1"))
-    : undefined;
+  return DummyData.getCollection(handle);
 }
 
 export async function getCollectionProducts({
@@ -70,9 +66,8 @@ export async function getCollectionProducts({
   filterCategoryProduct?: any[];
 }): Promise<{ pageInfo: PageInfo | null; products: Product[] }> {
   // Return products for a collection
-  const pageInfo = DummyData.createPageInfo();
-  const products = DummyData.createProducts(6);
-
+  const products = DummyData.getCollectionProducts(collection);
+  const pageInfo = DummyData.createPageInfo(false); // Set to false to indicate no more pages
   return {
     pageInfo,
     products,
@@ -101,45 +96,43 @@ export async function getCustomerAccessToken({
 
 export async function getUserDetails(accessToken: string): Promise<user> {
   // Return user details if valid token
-  return DummyData.createUser();
+  return DummyData.getUser();
 }
 
 // Mock collections operations
 export async function getCollections(): Promise<Collection[]> {
   // Return all collections
-  return DummyData.createCollections(5);
+  return DummyData.getCollections();
 }
 
 // Mock menu operations
 export async function getMenu(handle: string): Promise<Menu[]> {
   // Return menu items
-  return DummyData.createMenu();
+  return DummyData.getMenu();
 }
 
 // Mock page operations
 export async function getPage(handle: string): Promise<Page> {
   // Return page by handle
-  return DummyData.createPage(parseInt(handle.split("-").pop() || "1"));
+  return DummyData.getPage(parseInt(handle.split("-").pop() || "1"));
 }
 
 export async function getPages(): Promise<Page[]> {
   // Return all pages
-  return DummyData.createPages(3);
+  return DummyData.getPages();
 }
 
 // Mock product operations
 export async function getProduct(handle: string): Promise<Product | undefined> {
   // Return product by handle
-  return handle
-    ? DummyData.createProduct(parseInt(handle.split("-").pop() || "1"))
-    : undefined;
+  return DummyData.getProduct(handle);
 }
 
 export async function getProductRecommendations(
   productId: string,
 ): Promise<Product[]> {
   // Return recommended products
-  return DummyData.createProducts(4);
+  return DummyData.getProductRecommendations(productId);
 }
 
 export async function getVendors({
@@ -152,7 +145,7 @@ export async function getVendors({
   sortKey?: string;
 }): Promise<{ vendor: string; productCount: number }[]> {
   // Return vendor information
-  return DummyData.createVendors();
+  return DummyData.getVendors();
 }
 
 export async function getTags({
@@ -165,7 +158,7 @@ export async function getTags({
   sortKey?: string;
 }): Promise<Product[]> {
   // Return products with tags
-  return DummyData.createProducts(8);
+  return DummyData.getProducts();
 }
 
 export async function getProducts({
@@ -180,12 +173,40 @@ export async function getProducts({
   cursor?: string;
 }): Promise<{ pageInfo: PageInfo; products: Product[] }> {
   // Return products with pagination
-  const pageInfo = DummyData.createPageInfo();
-  const products = DummyData.createProducts(10);
-
+  let filteredProducts = DummyData.getProducts();
+  
+  // Simple query filtering
+  if (query) {
+    const lowerQuery = query.toLowerCase();
+    filteredProducts = filteredProducts.filter(product => 
+      product.title.toLowerCase().includes(lowerQuery) || 
+      product.vendor.toLowerCase().includes(lowerQuery) ||
+      product.tags.some(tag => tag.toLowerCase().includes(lowerQuery))
+    );
+  }
+  
+  // Sort if needed
+  if (sortKey) {
+    // Implement sorting logic based on sortKey
+    // This is a simplified example
+    if (sortKey === "TITLE") {
+      filteredProducts = filteredProducts.sort((a, b) => 
+        reverse ? b.title.localeCompare(a.title) : a.title.localeCompare(b.title)
+      );
+    } else if (sortKey === "PRICE") {
+      filteredProducts = filteredProducts.sort((a, b) => {
+        const priceA = parseFloat(a.priceRange.minVariantPrice.amount);
+        const priceB = parseFloat(b.priceRange.minVariantPrice.amount);
+        return reverse ? priceB - priceA : priceA - priceB;
+      });
+    }
+  }
+  
+  const pageInfo = DummyData.createPageInfo(false);
+  
   return {
     pageInfo,
-    products,
+    products: filteredProducts,
   };
 }
 
@@ -194,5 +215,5 @@ export async function getHighestProductPrice(): Promise<{
   currencyCode: string;
 } | null> {
   // Return highest product price
-  return DummyData.createHighestPrice();
+  return DummyData.getHighestPrice();
 }

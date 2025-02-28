@@ -98,7 +98,7 @@ export type Collection = ShopifyCollection & {
 
 export type Image = {
   url: string;
-  altText: string;
+  altText: string | null;
   width: number;
   height: number;
 };
@@ -144,11 +144,12 @@ export type ProductVariant = {
     value: string;
   }[];
   price: Money;
-};
+  compareAtPrice?: Money | null
+}; 
 
 export type SEO = {
-  title: string;
-  description: string;
+  title: string | null;
+  description: string | null;
 };
 
 export type ShopifyCart = {

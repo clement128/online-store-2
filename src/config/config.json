@@ -1,15 +1,15 @@
 {
   "site": {
-    "title": "Astrofront",
-    "base_url": "https://astrofront.vercel.app/",
+    "title": "Livespace Online",
+    "base_url": "https://online-store-2-gamma.vercel.app/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "150",
+    "logo_width": "26",
     "logo_height": "33",
-    "logo_text": "Astrofront"
+    "logo_text": "Livespace Online"
   },
 
   "settings": {

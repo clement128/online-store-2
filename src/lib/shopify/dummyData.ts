@@ -99,7 +99,7 @@ export const DUMMY_PAGES: Page[] = [
 // Helper functions to create dummy data
 const createDummyMoney = (
   amount: string = "10.00",
-  currencyCode: string = "USD",
+  currencyCode: string = "VND",
 ): Money => ({
   amount,
   currencyCode,

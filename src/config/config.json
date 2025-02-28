@@ -9,7 +9,7 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "26",
     "logo_height": "33",
-    "logo_text": "Livespace Online"
+    "logo_text": "Livespace"
   },
 
   "settings": {
@@ -38,8 +38,8 @@
   },
 
   "shopify": {
-    "currencySymbol": "৳",
-    "currencyCode": "BDT",
+    "currencySymbol": "",
+    "currencyCode": "VND",
     "collections": {
       "hero_slider": "hidden-homepage-carousel",
       "featured_products": "featured-products"

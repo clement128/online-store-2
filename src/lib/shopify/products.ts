@@ -22,17 +22,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "750.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "0.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "820.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -133,11 +133,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "750.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "820.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -152,11 +152,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "700.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "780.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -171,7 +171,7 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "0.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": null
       }
@@ -207,17 +207,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "600.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "600.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "870.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -345,11 +345,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "870.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -368,11 +368,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "870.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -391,11 +391,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "870.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -414,11 +414,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "870.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -437,11 +437,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "870.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -460,11 +460,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "870.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -483,11 +483,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "870.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -506,11 +506,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "870.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -529,11 +529,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "870.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       }
     ]
@@ -557,17 +557,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "6400.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "6400.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "0.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -607,7 +607,7 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "6400.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": null
       }
@@ -632,17 +632,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "5300.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "5300.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "0.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -682,7 +682,7 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "5300.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": null
       }
@@ -707,17 +707,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "5200.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "5200.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "0.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -757,7 +757,7 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "5200.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": null
       }
@@ -782,17 +782,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "5100.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "5100.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "0.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -832,7 +832,7 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "5100.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": null
       }
@@ -859,17 +859,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "4200.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "4200.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "5999.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -913,11 +913,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "4200.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5999.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -932,11 +932,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "4200.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5999.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -951,11 +951,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "4200.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5999.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       }
     ]
@@ -979,17 +979,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "2567.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "2567.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "0.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -1034,7 +1034,7 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "2567.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": null
       }
@@ -1059,17 +1059,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "3200.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "3200.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "4200.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -1114,11 +1114,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "3200.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "4200.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       }
     ]
@@ -1153,17 +1153,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "3600.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "3600.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "5600.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -1224,11 +1224,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "3600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -1247,11 +1247,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "3600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -1270,11 +1270,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "3600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -1293,11 +1293,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "3600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -1316,11 +1316,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "3600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -1339,11 +1339,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "3600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -1362,11 +1362,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "3600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -1385,11 +1385,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "3600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       },
       {
@@ -1408,11 +1408,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "3600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "5600.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       }
     ]
@@ -1436,17 +1436,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "69.99",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "69.99",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "85.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -1490,11 +1490,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "69.99",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "85.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       }
     ]
@@ -1518,17 +1518,17 @@ export const data: Product[] = [
     "priceRange": {
       "maxVariantPrice": {
         "amount": "59.99",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       },
       "minVariantPrice": {
         "amount": "59.99",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
         "amount": "75.0",
-        "currencyCode": "PHP"
+        "currencyCode": "VND"
       }
     },
     "featuredImage": {
@@ -1572,11 +1572,11 @@ export const data: Product[] = [
         ],
         "price": {
           "amount": "59.99",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         },
         "compareAtPrice": {
           "amount": "75.0",
-          "currencyCode": "PHP"
+          "currencyCode": "VND"
         }
       }
     ]

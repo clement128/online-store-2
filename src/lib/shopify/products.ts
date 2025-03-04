@@ -1,543 +1,6 @@
 import { type Product } from './types.ts'
 
 export const data: Product[] = [
-  {
-    "id": "gid://shopify/Product/14658175238509",
-    "handle": "iron-lantern-desk",
-    "availableForSale": true,
-    "title": "Iron Lantern Desk",
-    "description": "About this item Matte Black Finish Clear Glass Shade Convenient ON/OFF cord switch Lamp measures: L:9\" x W:5.75\" x H:19\" Uses 1 x 40W equivalent standard medium base bulb (not included). For full vintage look, Type T45 Edison bulb is recommended Available in a variety of finishesNote: Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing. --- split content --- Additional information Style Bulb Included Brand Simple Designs Dimensions 5.75\"D x 9\"W x 19\"H Special Feature Corded No Import Fees Deposit.",
-    "descriptionHtml": "<h5 class=\"a-size-base-plus a-text-bold\" data-mce-fragment=\"1\">About this item</h5>\n<ul class=\"a-unordered-list a-vertical a-spacing-mini\" data-mce-fragment=\"1\">\n<li class=\"a-spacing-mini\" data-mce-fragment=\"1\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Matte Black Finish</span></li>\n<li class=\"a-spacing-mini\" data-mce-fragment=\"1\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Clear Glass Shade</span></li>\n<li class=\"a-spacing-mini\" data-mce-fragment=\"1\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Convenient ON/OFF cord switch</span></li>\n<li class=\"a-spacing-mini\" data-mce-fragment=\"1\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Lamp measures: L:9\" x W:5.75\" x H:19\"</span></li>\n<li class=\"a-spacing-mini\" data-mce-fragment=\"1\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Uses 1 x 40W equivalent standard medium base bulb (not included). For full vintage look, Type T45 Edison bulb is recommended</span></li>\n<li class=\"a-spacing-mini\" style=\"text-align: left;\" data-mce-fragment=\"1\" data-mce-style=\"text-align: left;\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Available in a variety of finishes<br><br><strong><span class=\"a-text-bold\" data-mce-fragment=\"1\">Note</span>: </strong><span data-mce-fragment=\"1\">Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.</span></span></li>\n</ul>\n<span style=\"font-size: 0.875rem;\">--- split content ---</span><br>\n<h5 data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">Additional information</span></h5>\n<div>\n<div>\n<table style=\"width: 43.7113%;\" data-mce-style=\"width: 43.7113%;\">\n<tbody>\n<tr>\n<td style=\"width: 14%;\" data-mce-style=\"width: 14%;\"><strong>Style</strong></td>\n<td style=\"width: 25.7113%;\" data-mce-style=\"width: 25.7113%;\"><span>Bulb Included</span></td>\n</tr>\n<tr>\n<td style=\"width: 14%;\" data-mce-style=\"width: 14%;\"><strong><span data-mce-fragment=\"1\">Brand</span></strong></td>\n<td style=\"width: 25.7113%;\" data-mce-style=\"width: 25.7113%;\"><span>Simple Designs</span></td>\n</tr>\n<tr>\n<td style=\"width: 14%;\" data-mce-style=\"width: 14%;\">\n<table class=\"a-normal a-spacing-micro\">\n<tbody>\n<tr class=\"a-spacing-small po-item_depth_width_height\">\n<td class=\"a-span3\"><strong><span class=\"a-size-base a-text-bold\">Dimensions</span></strong></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"width: 25.7113%;\" data-mce-style=\"width: 25.7113%;\"><span>5.75\"D x 9\"W x 19\"H</span></td>\n</tr>\n<tr>\n<td style=\"width: 14%;\" data-mce-style=\"width: 14%;\">\n<table class=\"a-normal a-spacing-micro\">\n<tbody>\n<tr class=\"a-spacing-small po-special_feature\">\n<td class=\"a-span3\"><strong><span class=\"a-size-base a-text-bold\">Special Feature</span></strong></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"width: 25.7113%;\" data-mce-style=\"width: 25.7113%;\"><span>Corded</span></td>\n</tr>\n</tbody>\n</table>\n<span><span class=\"a-size-base a-color-secondary\" data-mce-fragment=\"1\"></span><span class=\"a-declarative\" data-action=\"a-popover\" data-csa-c-type=\"widget\" data-csa-c-func-deps=\"aui-da-a-popover\" data-a-popover='{\"closeButton\":\"true\",\"name\":\"agShipMsgPopover\",\"activate\":\"onclick\",\"width\":\"350\",\"position\":\"triggerBottom\"}' data-csa-c-id=\"5z8nt5-62kekn-ohnnaq-b1r5ey\" data-mce-fragment=\"1\"><a role=\"button\" class=\"a-popover-trigger a-declarative\" data-mce-fragment=\"1\"><span class=\"a-size-base\" data-mce-fragment=\"1\">No Import Fees Deposit.</span></a></span></span><br>\n</div>\n</div>",
-    "options": [
-      {
-        "id": "gid://shopify/ProductOption/16978581684589",
-        "name": "Color",
-        "values": [
-          "Antique Brass",
-          "Black",
-          "Default Title"
-        ]
-      }
-    ],
-    "priceRange": {
-      "maxVariantPrice": {
-        "amount": "750.0",
-        "currencyCode": "VND"
-      },
-      "minVariantPrice": {
-        "amount": "0.0",
-        "currencyCode": "VND"
-      }
-    },
-    "compareAtPriceRange": {
-      "maxVariantPrice": {
-        "amount": "820.0",
-        "currencyCode": "VND"
-      }
-    },
-    "featuredImage": {
-      "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b2_2106e65c-33cf-4ae7-8540-33c039ffbcb6.jpg?v=1740547307",
-      "altText": "Antique Brass",
-      "width": 1500,
-      "height": 1500
-    },
-    "seo": {
-      "description": null,
-      "title": null
-    },
-    "tags": [
-      "Ambient",
-      "Glow",
-      "Shedding"
-    ],
-    "updatedAt": "2025-02-26T05:37:45Z",
-    "vendor": "Home Decor",
-    "collections": {
-      "nodes": [
-        {
-          "title": "Home page",
-          "products": {
-            "edges": [
-              {
-                "node": {
-                  "title": "Iron Lantern Desk",
-                  "vendor": "Home Decor"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "title": "Automated Collection",
-          "products": {
-            "edges": [
-              {
-                "node": {
-                  "title": "Dome Pendant",
-                  "vendor": "Urban Lights Emporium"
-                }
-              },
-              {
-                "node": {
-                  "title": "Novelty Pendant",
-                  "vendor": "Ecoglow Designs"
-                }
-              },
-              {
-                "node": {
-                  "title": "Nourison 23",
-                  "vendor": "Home Decor"
-                }
-              },
-              {
-                "node": {
-                  "title": "Iron Lantern Desk",
-                  "vendor": "Home Decor"
-                }
-              }
-            ]
-          }
-        }
-      ]
-    },
-    "images": [
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b2_2106e65c-33cf-4ae7-8540-33c039ffbcb6.jpg?v=1740547307",
-        "altText": "Antique Brass",
-        "width": 1500,
-        "height": 1500
-      },
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b1_f1daa116-fb8a-4eab-a492-fddc8f3e6a71.jpg?v=1740547307",
-        "altText": "Antique Brass",
-        "width": 1500,
-        "height": 1500
-      },
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a1_b635491c-13ae-4390-b90d-204ca3f54b19.jpg?v=1740547307",
-        "altText": "Black",
-        "width": 1000,
-        "height": 1000
-      }
-    ],
-    "variants": [
-      {
-        "id": "gid://shopify/ProductVariant/51817023832429",
-        "title": "Antique Brass",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Antique Brass"
-          }
-        ],
-        "price": {
-          "amount": "750.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": {
-          "amount": "820.0",
-          "currencyCode": "VND"
-        }
-      },
-      {
-        "id": "gid://shopify/ProductVariant/51817023865197",
-        "title": "Black",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Black"
-          }
-        ],
-        "price": {
-          "amount": "700.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": {
-          "amount": "780.0",
-          "currencyCode": "VND"
-        }
-      },
-      {
-        "id": "gid://shopify/ProductVariant/51817023897965",
-        "title": "Default Title",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Default Title"
-          }
-        ],
-        "price": {
-          "amount": "0.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": null
-      }
-    ]
-  },
-{
-    "id": "gid://shopify/Product/14658175271277",
-    "handle": "nourison-23",
-    "availableForSale": true,
-    "title": "Nourison 23",
-    "description": "",
-    "descriptionHtml": "",
-    "options": [
-      {
-        "id": "gid://shopify/ProductOption/16978581717357",
-        "name": "Color",
-        "values": [
-          "Terracotta",
-          "Earth Brown",
-          "Vintage Black"
-        ]
-      },
-      {
-        "id": "gid://shopify/ProductOption/16978581750125",
-        "name": "Size",
-        "values": [
-          "Large",
-          "Medium",
-          "Small"
-        ]
-      }
-    ],
-    "priceRange": {
-      "maxVariantPrice": {
-        "amount": "600.0",
-        "currencyCode": "VND"
-      },
-      "minVariantPrice": {
-        "amount": "600.0",
-        "currencyCode": "VND"
-      }
-    },
-    "compareAtPriceRange": {
-      "maxVariantPrice": {
-        "amount": "870.0",
-        "currencyCode": "VND"
-      }
-    },
-    "featuredImage": {
-      "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a1.jpg?v=1740547317",
-      "altText": "Terracotta",
-      "width": 1500,
-      "height": 1500
-    },
-    "seo": {
-      "description": null,
-      "title": null
-    },
-    "tags": [
-      "Bedroom",
-      "Shine",
-      "Style"
-    ],
-    "updatedAt": "2025-02-26T05:43:45Z",
-    "vendor": "Home Decor",
-    "collections": {
-      "nodes": [
-        {
-          "title": "Automated Collection",
-          "products": {
-            "edges": [
-              {
-                "node": {
-                  "title": "Dome Pendant",
-                  "vendor": "Urban Lights Emporium"
-                }
-              },
-              {
-                "node": {
-                  "title": "Novelty Pendant",
-                  "vendor": "Ecoglow Designs"
-                }
-              },
-              {
-                "node": {
-                  "title": "Nourison 23",
-                  "vendor": "Home Decor"
-                }
-              },
-              {
-                "node": {
-                  "title": "Iron Lantern Desk",
-                  "vendor": "Home Decor"
-                }
-              }
-            ]
-          }
-        }
-      ]
-    },
-    "images": [
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a1.jpg?v=1740547317",
-        "altText": "Terracotta",
-        "width": 1500,
-        "height": 1500
-      },
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a2.jpg?v=1740547317",
-        "altText": "Terracotta",
-        "width": 1500,
-        "height": 1500
-      },
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a3.jpg?v=1740547317",
-        "altText": "Terracotta",
-        "width": 1500,
-        "height": 1500
-      },
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a4.jpg?v=1740547317",
-        "altText": "Terracotta",
-        "width": 1458,
-        "height": 1500
-      },
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b1.jpg?v=1740547317",
-        "altText": "Earth Brown",
-        "width": 1500,
-        "height": 1500
-      },
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b2.jpg?v=1740547317",
-        "altText": "Earth Brown",
-        "width": 1500,
-        "height": 1500
-      },
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b3.jpg?v=1740547317",
-        "altText": "Earth Brown",
-        "width": 1500,
-        "height": 1500
-      },
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b4.jpg?v=1740547317",
-        "altText": "Earth Brown",
-        "width": 1500,
-        "height": 1498
-      },
-      {
-        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/c1.jpg?v=1740547317",
-        "altText": "Vintage Black",
-        "width": 1500,
-        "height": 1500
-      }
-    ],
-    "variants": [
-      {
-        "id": "gid://shopify/ProductVariant/51817023930733",
-        "title": "Terracotta / Large",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Terracotta"
-          },
-          {
-            "name": "Size",
-            "value": "Large"
-          }
-        ],
-        "price": {
-          "amount": "600.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": {
-          "amount": "870.0",
-          "currencyCode": "VND"
-        }
-      },
-      {
-        "id": "gid://shopify/ProductVariant/51817023963501",
-        "title": "Terracotta / Medium",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Terracotta"
-          },
-          {
-            "name": "Size",
-            "value": "Medium"
-          }
-        ],
-        "price": {
-          "amount": "600.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": {
-          "amount": "870.0",
-          "currencyCode": "VND"
-        }
-      },
-      {
-        "id": "gid://shopify/ProductVariant/51817023996269",
-        "title": "Terracotta / Small",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Terracotta"
-          },
-          {
-            "name": "Size",
-            "value": "Small"
-          }
-        ],
-        "price": {
-          "amount": "600.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": {
-          "amount": "870.0",
-          "currencyCode": "VND"
-        }
-      },
-      {
-        "id": "gid://shopify/ProductVariant/51817024029037",
-        "title": "Earth Brown / Large",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Earth Brown"
-          },
-          {
-            "name": "Size",
-            "value": "Large"
-          }
-        ],
-        "price": {
-          "amount": "600.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": {
-          "amount": "870.0",
-          "currencyCode": "VND"
-        }
-      },
-      {
-        "id": "gid://shopify/ProductVariant/51817024061805",
-        "title": "Earth Brown / Medium",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Earth Brown"
-          },
-          {
-            "name": "Size",
-            "value": "Medium"
-          }
-        ],
-        "price": {
-          "amount": "600.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": {
-          "amount": "870.0",
-          "currencyCode": "VND"
-        }
-      },
-      {
-        "id": "gid://shopify/ProductVariant/51817024094573",
-        "title": "Earth Brown / Small",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Earth Brown"
-          },
-          {
-            "name": "Size",
-            "value": "Small"
-          }
-        ],
-        "price": {
-          "amount": "600.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": {
-          "amount": "870.0",
-          "currencyCode": "VND"
-        }
-      },
-      {
-        "id": "gid://shopify/ProductVariant/51817024127341",
-        "title": "Vintage Black / Large",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Vintage Black"
-          },
-          {
-            "name": "Size",
-            "value": "Large"
-          }
-        ],
-        "price": {
-          "amount": "600.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": {
-          "amount": "870.0",
-          "currencyCode": "VND"
-        }
-      },
-      {
-        "id": "gid://shopify/ProductVariant/51817024160109",
-        "title": "Vintage Black / Medium",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Vintage Black"
-          },
-          {
-            "name": "Size",
-            "value": "Medium"
-          }
-        ],
-        "price": {
-          "amount": "600.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": {
-          "amount": "870.0",
-          "currencyCode": "VND"
-        }
-      },
-      {
-        "id": "gid://shopify/ProductVariant/51817024192877",
-        "title": "Vintage Black / Small",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Vintage Black"
-          },
-          {
-            "name": "Size",
-            "value": "Small"
-          }
-        ],
-        "price": {
-          "amount": "600.0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": {
-          "amount": "870.0",
-          "currencyCode": "VND"
-        }
-      }
-    ]
-  },
 {
     "id": "gid://shopify/Product/14658175304045",
     "handle": "step-into-the-future-of-lighting-with-bright-innovations",
@@ -1580,5 +1043,1661 @@ export const data: Product[] = [
         }
       }
     ]
-  }
+  },
+{
+            "id": "gid://shopify/Product/14658175664493",
+            "handle": "polyester-empire-lamp",
+            "availableForSale": true,
+            "title": "Polyester Empire Lamp",
+            "description": "Endsley 1-Light Globe LED Pendant Available in a range of contemporary colour choices to suit any existing décor, this three-light pendant is ideal for casting a spotlight on special areas of your home. Well-suited for kitchen islands or highlighting a standout item of furniture, the pendant is also height adjustable.",
+            "descriptionHtml": "<span data-mce-fragment=\"1\">Endsley 1-Light Globe LED Pendant Available in a range of contemporary colour choices to suit any existing décor, this three-light pendant is ideal for casting a spotlight on special areas of your home. Well-suited for kitchen islands or highlighting a standout item of furniture, the pendant is also height adjustable.</span>",
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/16978582176109",
+                    "name": "Size",
+                    "values": [
+                        "Diameter: 8 inches",
+                        "Diameter: 10 inches",
+                        "Diameter: 12 inches"
+                    ]
+                },
+                {
+                    "id": "gid://shopify/ProductOption/16978582208877",
+                    "name": "Color",
+                    "values": [
+                        "363638",
+                        "D8D6D2",
+                        "C5C8C7"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "maxVariantPrice": {
+                    "amount": "1890.0",
+                    "currencyCode": "VND"
+                },
+                "minVariantPrice": {
+                    "amount": "1890.0",
+                    "currencyCode": "VND"
+                }
+            },
+            "compareAtPriceRange": {
+                "maxVariantPrice": {
+                    "amount": "2100.0",
+                    "currencyCode": "VND"
+                }
+            },
+            "featuredImage": {
+                "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/11.1.webp?v=1740547345",
+                "altText": "363638",
+                "width": 925,
+                "height": 950
+            },
+            "seo": {
+                "description": null,
+                "title": null
+            },
+            "tags": [
+                "Ambient",
+                "Cotton",
+                "Wireless"
+            ],
+            "updatedAt": "2025-03-03T03:34:16Z",
+            "vendor": "Nextcart Nexus",
+            "collections": {
+                "nodes": []
+            },
+            "images": [
+                {
+                    "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/11.1.webp?v=1740547345",
+                    "altText": "363638",
+                    "width": 925,
+                    "height": 950
+                },
+                {
+                    "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/11.3.webp?v=1740547345",
+                    "altText": "D8D6D2",
+                    "width": 925,
+                    "height": 950
+                },
+                {
+                    "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/11.2.webp?v=1740547345",
+                    "altText": "C5C8C7",
+                    "width": 925,
+                    "height": 950
+                }
+            ],
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/51817025012077",
+                    "title": "Diameter: 8 inches / 363638",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Diameter: 8 inches"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "363638"
+                        }
+                    ],
+                    "price": {
+                        "amount": "1890.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "2100.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025044845",
+                    "title": "Diameter: 8 inches / D8D6D2",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Diameter: 8 inches"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "D8D6D2"
+                        }
+                    ],
+                    "price": {
+                        "amount": "1890.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "2100.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025077613",
+                    "title": "Diameter: 8 inches / C5C8C7",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Diameter: 8 inches"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "C5C8C7"
+                        }
+                    ],
+                    "price": {
+                        "amount": "1890.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "2100.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025110381",
+                    "title": "Diameter: 10 inches / 363638",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Diameter: 10 inches"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "363638"
+                        }
+                    ],
+                    "price": {
+                        "amount": "1890.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "2100.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025143149",
+                    "title": "Diameter: 10 inches / D8D6D2",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Diameter: 10 inches"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "D8D6D2"
+                        }
+                    ],
+                    "price": {
+                        "amount": "1890.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "2100.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025175917",
+                    "title": "Diameter: 10 inches / C5C8C7",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Diameter: 10 inches"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "C5C8C7"
+                        }
+                    ],
+                    "price": {
+                        "amount": "1890.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "2100.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025208685",
+                    "title": "Diameter: 12 inches / 363638",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Diameter: 12 inches"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "363638"
+                        }
+                    ],
+                    "price": {
+                        "amount": "1890.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "2100.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025241453",
+                    "title": "Diameter: 12 inches / D8D6D2",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Diameter: 12 inches"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "D8D6D2"
+                        }
+                    ],
+                    "price": {
+                        "amount": "1890.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "2100.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025274221",
+                    "title": "Diameter: 12 inches / C5C8C7",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Diameter: 12 inches"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "C5C8C7"
+                        }
+                    ],
+                    "price": {
+                        "amount": "1890.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "2100.0",
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+  {
+            "id": "gid://shopify/Product/14658175697261",
+            "handle": "cotton-novelty-pendant",
+            "availableForSale": true,
+            "title": "Cotton Novelty Pendant",
+            "description": "if you change your mind. Get a refund/replacement & free return shipping if it arrives damaged or not as describedsdfsadf",
+            "descriptionHtml": "<p><span mce-data-marked=\"1\"> if you change your mind. Get a refund/replacement &amp; free return shipping if it arrives damaged or not as describedsdfsadf</span></p>\n<div id=\"gtx-trans\" style=\"position: absolute; left: -162px; top: 29px;\">\n<div class=\"gtx-trans-icon\"></div>\n</div>",
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/16978582241645",
+                    "name": "Title",
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "maxVariantPrice": {
+                    "amount": "29.99",
+                    "currencyCode": "VND"
+                },
+                "minVariantPrice": {
+                    "amount": "29.99",
+                    "currencyCode": "VND"
+                }
+            },
+            "compareAtPriceRange": {
+                "maxVariantPrice": {
+                    "amount": "40.0",
+                    "currencyCode": "VND"
+                }
+            },
+            "featuredImage": {
+                "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/12.4_70960657-8474-4871-b445-4bd05ca28cc4.webp?v=1740547347",
+                "altText": null,
+                "width": 925,
+                "height": 950
+            },
+            "seo": {
+                "description": null,
+                "title": null
+            },
+            "tags": [
+                "Cotton",
+                "Glowing",
+                "Style"
+            ],
+            "updatedAt": "2025-03-03T03:34:01Z",
+            "vendor": "Urban Lights Emporium",
+            "collections": {
+                "nodes": []
+            },
+            "images": [
+                {
+                    "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/12.4_70960657-8474-4871-b445-4bd05ca28cc4.webp?v=1740547347",
+                    "altText": "Cotton Novelty Pendant - 12.4_70960657-8474-4871-b445-4bd05ca28cc4",
+                    "width": 925,
+                    "height": 950
+                }
+            ],
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/51817025306989",
+                    "title": "Default Title",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Title",
+                            "value": "Default Title"
+                        }
+                    ],
+                    "price": {
+                        "amount": "29.99",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "40.0",
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+{
+            "id": "gid://shopify/Product/14658175730029",
+            "handle": "novelty-pendant",
+            "availableForSale": true,
+            "title": "Novelty Pendant",
+            "description": "Endsley 1-Light Globe LED Pendant Available in a range of contemporary colour choices to suit any existing décor, this three-light pendant is ideal for casting a spotlight on special areas of your home. Well-suited for kitchen islands or highlighting a standout item of furniture, the pendant is also height adjustable...",
+            "descriptionHtml": "<span data-mce-fragment=\"1\">Endsley 1-Light Globe LED Pendant Available in a range of contemporary colour choices to suit any existing décor, this three-light pendant is ideal for casting a spotlight on special areas of your home. Well-suited for kitchen islands or highlighting a standout item of furniture, the pendant is also height adjustable...</span>",
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/16978582274413",
+                    "name": "Color",
+                    "values": [
+                        "697978",
+                        "DCDBD7"
+                    ]
+                },
+                {
+                    "id": "gid://shopify/ProductOption/16978582307181",
+                    "name": "Size",
+                    "values": [
+                        "Long Wire",
+                        "Short Wire",
+                        "Medium Wire"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "maxVariantPrice": {
+                    "amount": "780.0",
+                    "currencyCode": "VND"
+                },
+                "minVariantPrice": {
+                    "amount": "780.0",
+                    "currencyCode": "VND"
+                }
+            },
+            "compareAtPriceRange": {
+                "maxVariantPrice": {
+                    "amount": "820.0",
+                    "currencyCode": "VND"
+                }
+            },
+            "featuredImage": {
+                "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/16.1.webp?v=1740547351",
+                "altText": "697978",
+                "width": 925,
+                "height": 950
+            },
+            "seo": {
+                "description": null,
+                "title": null
+            },
+            "tags": [
+                "Shine",
+                "Spotlight",
+                "Style"
+            ],
+            "updatedAt": "2025-03-03T03:34:02Z",
+            "vendor": "Ecoglow Designs",
+            "collections": {
+                "nodes": [
+                    {
+                        "title": "Automated Collection",
+                        "products": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "title": "Dome Pendant",
+                                        "vendor": "Urban Lights Emporium"
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "title": "Novelty Pendant",
+                                        "vendor": "Ecoglow Designs"
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "title": "Nourison 23",
+                                        "vendor": "Home Decor"
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "title": "Iron Lantern Desk",
+                                        "vendor": "Home Decor"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "images": [
+                {
+                    "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/16.1.webp?v=1740547351",
+                    "altText": "697978",
+                    "width": 925,
+                    "height": 950
+                },
+                {
+                    "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/16.2.webp?v=1740547351",
+                    "altText": "DCDBD7",
+                    "width": 925,
+                    "height": 950
+                }
+            ],
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/51817025372525",
+                    "title": "697978 / Long Wire",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "697978"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Long Wire"
+                        }
+                    ],
+                    "price": {
+                        "amount": "780.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "820.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025405293",
+                    "title": "697978 / Short Wire",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "697978"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Short Wire"
+                        }
+                    ],
+                    "price": {
+                        "amount": "780.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "820.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025438061",
+                    "title": "697978 / Medium Wire",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "697978"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Medium Wire"
+                        }
+                    ],
+                    "price": {
+                        "amount": "780.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "820.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025470829",
+                    "title": "DCDBD7 / Long Wire",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "DCDBD7"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Long Wire"
+                        }
+                    ],
+                    "price": {
+                        "amount": "780.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "820.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025503597",
+                    "title": "DCDBD7 / Short Wire",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "DCDBD7"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Short Wire"
+                        }
+                    ],
+                    "price": {
+                        "amount": "780.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "820.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025536365",
+                    "title": "DCDBD7 / Medium Wire",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "DCDBD7"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Medium Wire"
+                        }
+                    ],
+                    "price": {
+                        "amount": "780.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "820.0",
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+ {
+            "id": "gid://shopify/Product/14658175762797",
+            "handle": "dome-pendant",
+            "availableForSale": true,
+            "title": "Dome Pendant",
+            "description": "Endsley 1-Light Globe LED Pendant Available in a range of contemporary colour choices to suit any existing décor, this three-light pendant is ideal for casting a spotlight on special areas of your home. Well-suited for kitchen islands or highlighting a standout item of furniture, the pendant is also height adjustable.",
+            "descriptionHtml": "<span data-mce-fragment=\"1\">Endsley 1-Light Globe LED Pendant Available in a range of contemporary colour choices to suit any existing décor, this three-light pendant is ideal for casting a spotlight on special areas of your home. Well-suited for kitchen islands or highlighting a standout item of furniture, the pendant is also height adjustable.</span>",
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/16978582339949",
+                    "name": "Size",
+                    "values": [
+                        "Long Wire",
+                        "Short Wire"
+                    ]
+                },
+                {
+                    "id": "gid://shopify/ProductOption/16978582372717",
+                    "name": "Color",
+                    "values": [
+                        "1D1D1D",
+                        "F4B390"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "maxVariantPrice": {
+                    "amount": "345.0",
+                    "currencyCode": "VND"
+                },
+                "minVariantPrice": {
+                    "amount": "345.0",
+                    "currencyCode": "VND"
+                }
+            },
+            "compareAtPriceRange": {
+                "maxVariantPrice": {
+                    "amount": "380.0",
+                    "currencyCode": "VND"
+                }
+            },
+            "featuredImage": {
+                "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/17.1.webp?v=1740547354",
+                "altText": "1D1D1D",
+                "width": 925,
+                "height": 950
+            },
+            "seo": {
+                "description": null,
+                "title": null
+            },
+            "tags": [
+                "Ambient",
+                "Outdoor",
+                "Spotlight"
+            ],
+            "updatedAt": "2025-03-03T03:34:02Z",
+            "vendor": "Urban Lights Emporium",
+            "collections": {
+                "nodes": [
+                    {
+                        "title": "Automated Collection",
+                        "products": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "title": "Dome Pendant",
+                                        "vendor": "Urban Lights Emporium"
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "title": "Novelty Pendant",
+                                        "vendor": "Ecoglow Designs"
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "title": "Nourison 23",
+                                        "vendor": "Home Decor"
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "title": "Iron Lantern Desk",
+                                        "vendor": "Home Decor"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "images": [
+                {
+                    "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/17.1.webp?v=1740547354",
+                    "altText": "1D1D1D",
+                    "width": 925,
+                    "height": 950
+                },
+                {
+                    "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/17.2.webp?v=1740547354",
+                    "altText": "F4B390",
+                    "width": 925,
+                    "height": 950
+                }
+            ],
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/51817025601901",
+                    "title": "Long Wire / 1D1D1D",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Long Wire"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "1D1D1D"
+                        }
+                    ],
+                    "price": {
+                        "amount": "345.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "380.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025634669",
+                    "title": "Long Wire / F4B390",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Long Wire"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "F4B390"
+                        }
+                    ],
+                    "price": {
+                        "amount": "345.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "380.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025667437",
+                    "title": "Short Wire / 1D1D1D",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Short Wire"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "1D1D1D"
+                        }
+                    ],
+                    "price": {
+                        "amount": "345.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "380.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025700205",
+                    "title": "Short Wire / F4B390",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Size",
+                            "value": "Short Wire"
+                        },
+                        {
+                            "name": "Color",
+                            "value": "F4B390"
+                        }
+                    ],
+                    "price": {
+                        "amount": "345.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "380.0",
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+{
+            "id": "gid://shopify/Product/14658175795565",
+            "handle": "mini-desk-lamp",
+            "availableForSale": true,
+            "title": "Mini Desk Lamp",
+            "description": "Suspendisse eu ligula. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Nullam cursus lacinia erat. Nam at tortor in tellus interdum sagittis. Phasellus magna.",
+            "descriptionHtml": "<span data-mce-fragment=\"1\">Suspendisse eu ligula. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Nullam cursus lacinia erat. Nam at tortor in tellus interdum sagittis. Phasellus magna.</span>",
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/16978582405485",
+                    "name": "Color",
+                    "values": [
+                        "413F3A",
+                        "4B212A",
+                        "455562"
+                    ]
+                },
+                {
+                    "id": "gid://shopify/ProductOption/16978582438253",
+                    "name": "Size",
+                    "values": [
+                        "Bedside: 24 inches",
+                        "Living Room: 30 inches",
+                        "Reading: 60 inches"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "maxVariantPrice": {
+                    "amount": "99.0",
+                    "currencyCode": "VND"
+                },
+                "minVariantPrice": {
+                    "amount": "99.0",
+                    "currencyCode": "VND"
+                }
+            },
+            "compareAtPriceRange": {
+                "maxVariantPrice": {
+                    "amount": "110.0",
+                    "currencyCode": "VND"
+                }
+            },
+            "featuredImage": {
+                "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/90_mini_mini_desk_lamp_carbon_black_2_2.jpg?v=1740547359",
+                "altText": "413F3A",
+                "width": 1080,
+                "height": 1080
+            },
+            "seo": {
+                "description": null,
+                "title": null
+            },
+            "tags": [
+                "Ambient",
+                "Elegant",
+                "Modern"
+            ],
+            "updatedAt": "2025-03-03T03:34:02Z",
+            "vendor": "Artisan Globe Lamps",
+            "collections": {
+                "nodes": []
+            },
+            "images": [
+                {
+                    "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/90_mini_mini_desk_lamp_carbon_black_2_2.jpg?v=1740547359",
+                    "altText": "413F3A",
+                    "width": 1080,
+                    "height": 1080
+                },
+                {
+                    "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/90_mini_mini_desk_lamp_berry_red_2.jpg?v=1740547359",
+                    "altText": "4B212A",
+                    "width": 1080,
+                    "height": 1080
+                },
+                {
+                    "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/90_mini_mini_desk_lamp_steel_blue_2_3.jpg?v=1740547359",
+                    "altText": "455562",
+                    "width": 1080,
+                    "height": 1080
+                }
+            ],
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/51817025765741",
+                    "title": "413F3A / Bedside: 24 inches",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "413F3A"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Bedside: 24 inches"
+                        }
+                    ],
+                    "price": {
+                        "amount": "99.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "110.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025798509",
+                    "title": "413F3A / Living Room: 30 inches",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "413F3A"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Living Room: 30 inches"
+                        }
+                    ],
+                    "price": {
+                        "amount": "99.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "110.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025831277",
+                    "title": "413F3A / Reading: 60 inches",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "413F3A"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Reading: 60 inches"
+                        }
+                    ],
+                    "price": {
+                        "amount": "99.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "110.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025864045",
+                    "title": "4B212A / Bedside: 24 inches",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "4B212A"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Bedside: 24 inches"
+                        }
+                    ],
+                    "price": {
+                        "amount": "99.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "110.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025896813",
+                    "title": "4B212A / Living Room: 30 inches",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "4B212A"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Living Room: 30 inches"
+                        }
+                    ],
+                    "price": {
+                        "amount": "99.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "110.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025929581",
+                    "title": "4B212A / Reading: 60 inches",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "4B212A"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Reading: 60 inches"
+                        }
+                    ],
+                    "price": {
+                        "amount": "99.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "110.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025962349",
+                    "title": "455562 / Bedside: 24 inches",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "455562"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Bedside: 24 inches"
+                        }
+                    ],
+                    "price": {
+                        "amount": "99.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "110.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817025995117",
+                    "title": "455562 / Living Room: 30 inches",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "455562"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Living Room: 30 inches"
+                        }
+                    ],
+                    "price": {
+                        "amount": "99.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "110.0",
+                        "currencyCode": "VND"
+                    }
+                },
+                {
+                    "id": "gid://shopify/ProductVariant/51817026027885",
+                    "title": "455562 / Reading: 60 inches",
+                    "availableForSale": true,
+                    "selectedOptions": [
+                        {
+                            "name": "Color",
+                            "value": "455562"
+                        },
+                        {
+                            "name": "Size",
+                            "value": "Reading: 60 inches"
+                        }
+                    ],
+                    "price": {
+                        "amount": "99.0",
+                        "currencyCode": "VND"
+                    },
+                    "compareAtPrice": {
+                        "amount": "110.0",
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+  {
+    "id": "gid://shopify/Product/14658175238509",
+    "handle": "iron-lantern-desk",
+    "availableForSale": true,
+    "title": "Iron Lantern Desk",
+    "description": "About this item Matte Black Finish Clear Glass Shade Convenient ON/OFF cord switch Lamp measures: L:9\" x W:5.75\" x H:19\" Uses 1 x 40W equivalent standard medium base bulb (not included). For full vintage look, Type T45 Edison bulb is recommended Available in a variety of finishesNote: Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing. --- split content --- Additional information Style Bulb Included Brand Simple Designs Dimensions 5.75\"D x 9\"W x 19\"H Special Feature Corded No Import Fees Deposit.",
+    "descriptionHtml": "<h5 class=\"a-size-base-plus a-text-bold\" data-mce-fragment=\"1\">About this item</h5>\n<ul class=\"a-unordered-list a-vertical a-spacing-mini\" data-mce-fragment=\"1\">\n<li class=\"a-spacing-mini\" data-mce-fragment=\"1\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Matte Black Finish</span></li>\n<li class=\"a-spacing-mini\" data-mce-fragment=\"1\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Clear Glass Shade</span></li>\n<li class=\"a-spacing-mini\" data-mce-fragment=\"1\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Convenient ON/OFF cord switch</span></li>\n<li class=\"a-spacing-mini\" data-mce-fragment=\"1\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Lamp measures: L:9\" x W:5.75\" x H:19\"</span></li>\n<li class=\"a-spacing-mini\" data-mce-fragment=\"1\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Uses 1 x 40W equivalent standard medium base bulb (not included). For full vintage look, Type T45 Edison bulb is recommended</span></li>\n<li class=\"a-spacing-mini\" style=\"text-align: left;\" data-mce-fragment=\"1\" data-mce-style=\"text-align: left;\"><span class=\"a-list-item\" data-mce-fragment=\"1\">Available in a variety of finishes<br><br><strong><span class=\"a-text-bold\" data-mce-fragment=\"1\">Note</span>: </strong><span data-mce-fragment=\"1\">Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.</span></span></li>\n</ul>\n<span style=\"font-size: 0.875rem;\">--- split content ---</span><br>\n<h5 data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">Additional information</span></h5>\n<div>\n<div>\n<table style=\"width: 43.7113%;\" data-mce-style=\"width: 43.7113%;\">\n<tbody>\n<tr>\n<td style=\"width: 14%;\" data-mce-style=\"width: 14%;\"><strong>Style</strong></td>\n<td style=\"width: 25.7113%;\" data-mce-style=\"width: 25.7113%;\"><span>Bulb Included</span></td>\n</tr>\n<tr>\n<td style=\"width: 14%;\" data-mce-style=\"width: 14%;\"><strong><span data-mce-fragment=\"1\">Brand</span></strong></td>\n<td style=\"width: 25.7113%;\" data-mce-style=\"width: 25.7113%;\"><span>Simple Designs</span></td>\n</tr>\n<tr>\n<td style=\"width: 14%;\" data-mce-style=\"width: 14%;\">\n<table class=\"a-normal a-spacing-micro\">\n<tbody>\n<tr class=\"a-spacing-small po-item_depth_width_height\">\n<td class=\"a-span3\"><strong><span class=\"a-size-base a-text-bold\">Dimensions</span></strong></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"width: 25.7113%;\" data-mce-style=\"width: 25.7113%;\"><span>5.75\"D x 9\"W x 19\"H</span></td>\n</tr>\n<tr>\n<td style=\"width: 14%;\" data-mce-style=\"width: 14%;\">\n<table class=\"a-normal a-spacing-micro\">\n<tbody>\n<tr class=\"a-spacing-small po-special_feature\">\n<td class=\"a-span3\"><strong><span class=\"a-size-base a-text-bold\">Special Feature</span></strong></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td style=\"width: 25.7113%;\" data-mce-style=\"width: 25.7113%;\"><span>Corded</span></td>\n</tr>\n</tbody>\n</table>\n<span><span class=\"a-size-base a-color-secondary\" data-mce-fragment=\"1\"></span><span class=\"a-declarative\" data-action=\"a-popover\" data-csa-c-type=\"widget\" data-csa-c-func-deps=\"aui-da-a-popover\" data-a-popover='{\"closeButton\":\"true\",\"name\":\"agShipMsgPopover\",\"activate\":\"onclick\",\"width\":\"350\",\"position\":\"triggerBottom\"}' data-csa-c-id=\"5z8nt5-62kekn-ohnnaq-b1r5ey\" data-mce-fragment=\"1\"><a role=\"button\" class=\"a-popover-trigger a-declarative\" data-mce-fragment=\"1\"><span class=\"a-size-base\" data-mce-fragment=\"1\">No Import Fees Deposit.</span></a></span></span><br>\n</div>\n</div>",
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/16978581684589",
+        "name": "Color",
+        "values": [
+          "Antique Brass",
+          "Black",
+          "Default Title"
+        ]
+      }
+    ],
+    "priceRange": {
+      "maxVariantPrice": {
+        "amount": "750.0",
+        "currencyCode": "VND"
+      },
+      "minVariantPrice": {
+        "amount": "0.0",
+        "currencyCode": "VND"
+      }
+    },
+    "compareAtPriceRange": {
+      "maxVariantPrice": {
+        "amount": "820.0",
+        "currencyCode": "VND"
+      }
+    },
+    "featuredImage": {
+      "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b2_2106e65c-33cf-4ae7-8540-33c039ffbcb6.jpg?v=1740547307",
+      "altText": "Antique Brass",
+      "width": 1500,
+      "height": 1500
+    },
+    "seo": {
+      "description": null,
+      "title": null
+    },
+    "tags": [
+      "Ambient",
+      "Glow",
+      "Shedding"
+    ],
+    "updatedAt": "2025-02-26T05:37:45Z",
+    "vendor": "Home Decor",
+    "collections": {
+      "nodes": [
+        {
+          "title": "Home page",
+          "products": {
+            "edges": [
+              {
+                "node": {
+                  "title": "Iron Lantern Desk",
+                  "vendor": "Home Decor"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "Automated Collection",
+          "products": {
+            "edges": [
+              {
+                "node": {
+                  "title": "Dome Pendant",
+                  "vendor": "Urban Lights Emporium"
+                }
+              },
+              {
+                "node": {
+                  "title": "Novelty Pendant",
+                  "vendor": "Ecoglow Designs"
+                }
+              },
+              {
+                "node": {
+                  "title": "Nourison 23",
+                  "vendor": "Home Decor"
+                }
+              },
+              {
+                "node": {
+                  "title": "Iron Lantern Desk",
+                  "vendor": "Home Decor"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b2_2106e65c-33cf-4ae7-8540-33c039ffbcb6.jpg?v=1740547307",
+        "altText": "Antique Brass",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b1_f1daa116-fb8a-4eab-a492-fddc8f3e6a71.jpg?v=1740547307",
+        "altText": "Antique Brass",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a1_b635491c-13ae-4390-b90d-204ca3f54b19.jpg?v=1740547307",
+        "altText": "Black",
+        "width": 1000,
+        "height": 1000
+      }
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/51817023832429",
+        "title": "Antique Brass",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Antique Brass"
+          }
+        ],
+        "price": {
+          "amount": "750.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": {
+          "amount": "820.0",
+          "currencyCode": "VND"
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/51817023865197",
+        "title": "Black",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ],
+        "price": {
+          "amount": "700.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": {
+          "amount": "780.0",
+          "currencyCode": "VND"
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/51817023897965",
+        "title": "Default Title",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Default Title"
+          }
+        ],
+        "price": {
+          "amount": "0.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": null
+      }
+    ]
+  },
+{
+    "id": "gid://shopify/Product/14658175271277",
+    "handle": "nourison-23",
+    "availableForSale": true,
+    "title": "Nourison 23",
+    "description": "",
+    "descriptionHtml": "",
+    "options": [
+      {
+        "id": "gid://shopify/ProductOption/16978581717357",
+        "name": "Color",
+        "values": [
+          "Terracotta",
+          "Earth Brown",
+          "Vintage Black"
+        ]
+      },
+      {
+        "id": "gid://shopify/ProductOption/16978581750125",
+        "name": "Size",
+        "values": [
+          "Large",
+          "Medium",
+          "Small"
+        ]
+      }
+    ],
+    "priceRange": {
+      "maxVariantPrice": {
+        "amount": "600.0",
+        "currencyCode": "VND"
+      },
+      "minVariantPrice": {
+        "amount": "600.0",
+        "currencyCode": "VND"
+      }
+    },
+    "compareAtPriceRange": {
+      "maxVariantPrice": {
+        "amount": "870.0",
+        "currencyCode": "VND"
+      }
+    },
+    "featuredImage": {
+      "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a1.jpg?v=1740547317",
+      "altText": "Terracotta",
+      "width": 1500,
+      "height": 1500
+    },
+    "seo": {
+      "description": null,
+      "title": null
+    },
+    "tags": [
+      "Bedroom",
+      "Shine",
+      "Style"
+    ],
+    "updatedAt": "2025-02-26T05:43:45Z",
+    "vendor": "Home Decor",
+    "collections": {
+      "nodes": [
+        {
+          "title": "Automated Collection",
+          "products": {
+            "edges": [
+              {
+                "node": {
+                  "title": "Dome Pendant",
+                  "vendor": "Urban Lights Emporium"
+                }
+              },
+              {
+                "node": {
+                  "title": "Novelty Pendant",
+                  "vendor": "Ecoglow Designs"
+                }
+              },
+              {
+                "node": {
+                  "title": "Nourison 23",
+                  "vendor": "Home Decor"
+                }
+              },
+              {
+                "node": {
+                  "title": "Iron Lantern Desk",
+                  "vendor": "Home Decor"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "images": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a1.jpg?v=1740547317",
+        "altText": "Terracotta",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a2.jpg?v=1740547317",
+        "altText": "Terracotta",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a3.jpg?v=1740547317",
+        "altText": "Terracotta",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/a4.jpg?v=1740547317",
+        "altText": "Terracotta",
+        "width": 1458,
+        "height": 1500
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b1.jpg?v=1740547317",
+        "altText": "Earth Brown",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b2.jpg?v=1740547317",
+        "altText": "Earth Brown",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b3.jpg?v=1740547317",
+        "altText": "Earth Brown",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/b4.jpg?v=1740547317",
+        "altText": "Earth Brown",
+        "width": 1500,
+        "height": 1498
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0906/2521/2781/files/c1.jpg?v=1740547317",
+        "altText": "Vintage Black",
+        "width": 1500,
+        "height": 1500
+      }
+    ],
+    "variants": [
+      {
+        "id": "gid://shopify/ProductVariant/51817023930733",
+        "title": "Terracotta / Large",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Terracotta"
+          },
+          {
+            "name": "Size",
+            "value": "Large"
+          }
+        ],
+        "price": {
+          "amount": "600.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": {
+          "amount": "870.0",
+          "currencyCode": "VND"
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/51817023963501",
+        "title": "Terracotta / Medium",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Terracotta"
+          },
+          {
+            "name": "Size",
+            "value": "Medium"
+          }
+        ],
+        "price": {
+          "amount": "600.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": {
+          "amount": "870.0",
+          "currencyCode": "VND"
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/51817023996269",
+        "title": "Terracotta / Small",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Terracotta"
+          },
+          {
+            "name": "Size",
+            "value": "Small"
+          }
+        ],
+        "price": {
+          "amount": "600.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": {
+          "amount": "870.0",
+          "currencyCode": "VND"
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/51817024029037",
+        "title": "Earth Brown / Large",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Earth Brown"
+          },
+          {
+            "name": "Size",
+            "value": "Large"
+          }
+        ],
+        "price": {
+          "amount": "600.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": {
+          "amount": "870.0",
+          "currencyCode": "VND"
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/51817024061805",
+        "title": "Earth Brown / Medium",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Earth Brown"
+          },
+          {
+            "name": "Size",
+            "value": "Medium"
+          }
+        ],
+        "price": {
+          "amount": "600.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": {
+          "amount": "870.0",
+          "currencyCode": "VND"
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/51817024094573",
+        "title": "Earth Brown / Small",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Earth Brown"
+          },
+          {
+            "name": "Size",
+            "value": "Small"
+          }
+        ],
+        "price": {
+          "amount": "600.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": {
+          "amount": "870.0",
+          "currencyCode": "VND"
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/51817024127341",
+        "title": "Vintage Black / Large",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Vintage Black"
+          },
+          {
+            "name": "Size",
+            "value": "Large"
+          }
+        ],
+        "price": {
+          "amount": "600.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": {
+          "amount": "870.0",
+          "currencyCode": "VND"
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/51817024160109",
+        "title": "Vintage Black / Medium",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Vintage Black"
+          },
+          {
+            "name": "Size",
+            "value": "Medium"
+          }
+        ],
+        "price": {
+          "amount": "600.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": {
+          "amount": "870.0",
+          "currencyCode": "VND"
+        }
+      },
+      {
+        "id": "gid://shopify/ProductVariant/51817024192877",
+        "title": "Vintage Black / Small",
+        "availableForSale": true,
+        "selectedOptions": [
+          {
+            "name": "Color",
+            "value": "Vintage Black"
+          },
+          {
+            "name": "Size",
+            "value": "Small"
+          }
+        ],
+        "price": {
+          "amount": "600.0",
+          "currencyCode": "VND"
+        },
+        "compareAtPrice": {
+          "amount": "870.0",
+          "currencyCode": "VND"
+        }
+      }
+    ]
+  },
 ]

@@ -23,33 +23,85 @@ export const DUMMY_COLLECTIONS: Collection[] = [
     title: "Featured Products",
     description: "Our handpicked selection of featured products.",
     seo: {
-      title: "Featured Products - Our Store",
+      title: "Featured Products - Livespace Online",
       description: "Discover our handpicked selection of featured products.",
+    },
+    products: {
+      edges: [DUMMY_PRODUCTS[14], DUMMY_PRODUCTS[4], DUMMY_PRODUCTS[12], DUMMY_PRODUCTS[13], DUMMY_PRODUCTS[15]]
+    },
+    image: {
+      url: DUMMY_PRODUCTS[14].featuredImage.url
     },
     updatedAt: "2025-02-20T10:00:00Z",
     path: "/products/featured-products",
   },
   {
-    handle: "new-arrivals",
-    title: "New Arrivals",
+    handle: "artisanal-abode",
+    title: "Luminaire Essentials",
     description: "Check out our latest products.",
     seo: {
-      title: "New Arrivals - Our Store",
+      title: "Luminaire Essentials - Livespace Online",
       description: "Discover our latest product additions.",
     },
+    image: {
+      url: DUMMY_PRODUCTS[9].featuredImage.url
+    },
     updatedAt: "2025-02-22T14:30:00Z",
-    path: "/products/new-arrivals",
+    path: "/products/artisanal-abode",
+    products: {
+      edges: [DUMMY_PRODUCTS[9], DUMMY_PRODUCTS[12], DUMMY_PRODUCTS[13]]
+    }
   },
   {
-    handle: "sale",
-    title: "On Sale",
+    handle: "luxe-luminaires",
+    title: "Luxe Luminaires",
     description: "Products currently on sale with special discounts.",
+    image: {
+      url: DUMMY_PRODUCTS[11].featuredImage.url
+    },
+    products: {
+    edges: [DUMMY_PRODUCTS[11], DUMMY_PRODUCTS[8]]
+    },
     seo: {
-      title: "Sale Items - Our Store",
+      title: "Luxe Luminaires - Livespace Online",
       description: "Shop our sale items with special discounts.",
     },
     updatedAt: "2025-02-15T09:15:00Z",
-    path: "/products/sale",
+    path: "/products/luxe-luminaires",
+  },
+  {
+    handle: 'radiant-stands',
+    title: 'Radiant Stands',
+    description: "Products currently on sale with special discounts.",
+    image: {
+      url: DUMMY_PRODUCTS[7].featuredImage.url
+    },
+    products: {
+    edges: [DUMMY_PRODUCTS[7], DUMMY_PRODUCTS[14]]
+    },
+    seo: {
+      title: "Luxe Luminaires - Livespace Online",
+      description: "Shop our sale items with special discounts.",
+    },
+    updatedAt: "2025-02-15T09:15:00Z",
+    path: "/products/luxe-luminaires",
+  },
+  {
+    handle: 'skyward-elegance',
+    title: 'Skyward Elegance',
+    description: "Products currently on sale with special discounts.",
+    seo: {
+      title: "Luxe Luminaires - Livespace Online",
+      description: "Shop our sale items with special discounts.",
+    },
+    products: {
+      edges: [DUMMY_PRODUCTS[5], DUMMY_PRODUCTS[4], DUMMY_PRODUCTS[13], DUMMY_PRODUCTS[12]]
+    },
+    image: {
+      url: DUMMY_PRODUCTS[5].featuredImage.url
+    },
+    updatedAt: "2025-02-15T09:15:00Z",
+    path: "/products/luxe-luminaires",
   },
 ];
 
@@ -186,7 +238,7 @@ const createDummyProduct = (id: number): Product => ({
 const createDummyCartItem = (productId: number): CartItem => {
   const product = DUMMY_PRODUCTS.find(p => p.id === `gid://shopify/Product/${productId}`) || DUMMY_PRODUCTS[0];
   const variant = product.variants[0];
-  
+
   return {
     id: `gid://shopify/CartLine/${productId}`,
     quantity: 1,
@@ -275,7 +327,7 @@ const createDummyCustomerError = (): CustomerError => ({
 export const DummyData = {
   // Cart functions
   createCart: (id: string = "gid://shopify/Cart/123456789") => createDummyCart(id),
-  
+
   // Product functions
   getProduct: (handle: string): Product | undefined => {
     return DUMMY_PRODUCTS.find(p => p.handle === handle);
@@ -290,7 +342,7 @@ export const DummyData = {
     // Return a different set of products than the current one
     return DUMMY_PRODUCTS.filter(p => p.id !== productId).slice(0, 4);
   },
-  
+
   // Collection functions
   getCollection: (handle: string): Collection | undefined => {
     return DUMMY_COLLECTIONS.find(c => c.handle === handle);
@@ -300,19 +352,16 @@ export const DummyData = {
   },
   getCollectionProducts: (handle: string): Product[] => {
     // Simulate different products for different collections
-    if (handle === "featured-products") {
-      return DUMMY_PRODUCTS.filter(p => p.tags.includes("featured"));
-    } else if (handle === "new-arrivals") {
-      return DUMMY_PRODUCTS.slice(0, 3);
-    } else if (handle === "sale") {
-      return DUMMY_PRODUCTS.filter(p => 
-        parseFloat(p.compareAtPriceRange.maxVariantPrice.amount) > 
-        parseFloat(p.priceRange.minVariantPrice.amount)
-      );
+    let data: Product[] | undefined
+    if (handle === 'featured-products') {
+      data = DUMMY_PRODUCTS.slice(-8)
     }
-    return DUMMY_PRODUCTS.slice(0, 4);
+    else {
+      data = DUMMY_COLLECTIONS.find(v => v.handle === handle)?.products?.edges
+    }
+    return data || DUMMY_PRODUCTS.slice(0, 4);
   },
-  
+
   // Page functions
   getPage: (handle: string): Page | undefined => {
     return DUMMY_PAGES.find(p => p.handle === handle);
@@ -320,7 +369,7 @@ export const DummyData = {
   getPages: (): Page[] => {
     return DUMMY_PAGES;
   },
-  
+
   // Other helper functions
   createPageInfo: (hasMore: boolean = true) => createDummyPageInfo(hasMore),
   getUser: () => createDummyUser(),

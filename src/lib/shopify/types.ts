@@ -125,8 +125,8 @@ export type Page = {
 };
 
 export type Product = Omit<ShopifyProduct, "variants" | "images"> & {
-  variants: ProductVariant[];
-  images: Image[];
+  variants?: ProductVariant[];
+  images?: Image[];
 };
 
 export type ProductOption = {
@@ -175,7 +175,7 @@ export type ShopifyCollection = {
     url: string;
   };
   products?: {
-    edges: Array<ShopifyProduct>;
+    edges: Array<Product>;
   };
 };
 
@@ -194,9 +194,9 @@ export type ShopifyProduct = {
   compareAtPriceRange: {
     maxVariantPrice: Money;
   };
-  variants: Connection<ProductVariant>;
+  variants?: Connection<ProductVariant>;
   featuredImage: Image;
-  images: Connection<Image>;
+  images?: Connection<Image>;
   seo: SEO;
   tags: string[];
   updatedAt: string;

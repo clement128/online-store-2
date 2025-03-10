@@ -4,6 +4,7 @@ import type { PageInfo, Product } from '@/lib/shopify/types';
 import React, { useEffect, useRef, useState } from 'react';
 import { BiLoaderAlt } from "react-icons/bi";
 import { AddToCart } from './cart/AddToCart';
+import { formatAmount } from "@/lib/utils";
 
 const ProductList = ({
   initialProducts,
@@ -172,7 +173,7 @@ const ProductList = ({
 
                   <div className="flex items-center gap-x-2 mt-2">
                     <span className="text-light dark:text-darkmode-light text-xs md:text-lg font-bold">
-                      ৳ {priceRange?.minVariantPrice?.amount}{" "}
+                        {formatAmount(priceRange?.minVariantPrice?.amount, priceRange?.minVariantPrice?.currencyCode)}{" "}
                       {priceRange?.minVariantPrice?.currencyCode}
                     </span>
                     {parseFloat(
@@ -180,7 +181,7 @@ const ProductList = ({
                     ) > 0 ? (
                       <s className="text-light dark:text-darkmode-light text-xs md:text-base font-medium">
                         {currencySymbol}{" "}
-                        {compareAtPriceRange?.maxVariantPrice?.amount}{" "}
+                        {formatAmount(compareAtPriceRange?.maxVariantPrice.amount, compareAtPriceRange?.maxVariantPrice?.currencyCode)}{" "}
                         {compareAtPriceRange?.maxVariantPrice?.currencyCode}
                       </s>
                     ) : (

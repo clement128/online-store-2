@@ -4,6 +4,7 @@ import type { PageInfo, Product } from "@/lib/shopify/types";
 import React, { useEffect, useRef, useState } from "react";
 import { BiLoaderAlt } from "react-icons/bi";
 import { AddToCart } from "./cart/AddToCart";
+import { formatAmount } from "@/lib/utils";
 
 const ProductGrid = ({
   initialProducts,
@@ -178,7 +179,7 @@ const ProductGrid = ({
                 <div className="flex flex-wrap justify-center items-center gap-x-2 mt-2 md:mt-4">
                   <span className="text-base md:text-xl font-bold text-dark dark:text-darkmode-dark">
                     {currencySymbol}{" "}
-                    {product?.priceRange?.minVariantPrice?.amount}{" "}
+                    {formatAmount(product?.priceRange?.minVariantPrice?.amount, product?.priceRange?.minVariantPrice?.currencyCode)}{' '}
                     {product?.priceRange?.minVariantPrice?.currencyCode}
                   </span>
                   {parseFloat(
@@ -186,7 +187,7 @@ const ProductGrid = ({
                   ) > 0 ? (
                     <s className="text-light dark:text-darkmode-light text-xs md:text-base font-medium">
                       {currencySymbol}{" "}
-                      {product?.compareAtPriceRange?.maxVariantPrice?.amount}{" "}
+                      {formatAmount(product?.compareAtPriceRange?.maxVariantPrice?.amount, product?.compareAtPriceRange?.maxVariantPrice?.currencyCode)}{' '}
                       {
                         product?.compareAtPriceRange?.maxVariantPrice
                           ?.currencyCode

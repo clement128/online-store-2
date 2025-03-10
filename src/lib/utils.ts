@@ -55,3 +55,15 @@ export const validateEnvironmentVariables = (): void => {
     );
   }
 };
+
+
+
+export const formatAmount = (amount?: number | string, currencyCode?: string) => {
+  if (amount == null) return ''
+  if (typeof amount === 'string') amount = parseFloat(amount)
+  return new Intl.NumberFormat('vi-VN', {
+    style: "currency",
+    currency: currencyCode,
+
+  }).format(amount).replace(/\s?₫/, '');
+}

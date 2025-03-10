@@ -1,3 +1,4 @@
+import { formatAmount } from "@/lib/utils";
 import React from "react";
 
 interface PriceProps {
@@ -13,11 +14,7 @@ const Price: React.FC<PriceProps> = ({
   currencyCode = "VND",
   currencyCodeClassName = "",
 }) => {
-  const formattedAmount = new Intl.NumberFormat(undefined, {
-    style: "currency",
-    currency: currencyCode,
-    currencyDisplay: "narrowSymbol",
-  }).format(parseFloat(amount));
+  const formattedAmount = formatAmount(amount, currencyCode)
 
   const combinedClassName = `${className} ${
     currencyCodeClassName ? "ml-1 inline" : ""

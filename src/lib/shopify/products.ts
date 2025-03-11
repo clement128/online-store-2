@@ -19,11 +19,11 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "2847000",
+        "amount": "42705000",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "2847000",
+        "amount": "42705000",
         "currencyCode": "VND"
       }
     },
@@ -69,7 +69,7 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "2847000",
+          "amount": "42705000",
           "currencyCode": "VND"
         },
         "compareAtPrice": null
@@ -94,11 +94,11 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "2353700",
+        "amount": "35305500",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "2353700",
+        "amount": "35305500",
         "currencyCode": "VND"
       }
     },
@@ -144,7 +144,7 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "2353700",
+          "amount": "35305500",
           "currencyCode": "VND"
         },
         "compareAtPrice": null
@@ -169,17 +169,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "2309300",
+        "amount": "34639500",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "2309300",
+        "amount": "34639500",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "0.0",
+        "amount": "0",
         "currencyCode": "VND"
       }
     },
@@ -219,7 +219,7 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "2309300",
+          "amount": "34639500",
           "currencyCode": "VND"
         },
         "compareAtPrice": null
@@ -244,17 +244,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "2264800",
+        "amount": "33972000",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "2264800",
+        "amount": "33972000",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "0.0",
+        "amount": "0",
         "currencyCode": "VND"
       }
     },
@@ -294,7 +294,7 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "2264800",
+          "amount": "33972000",
           "currencyCode": "VND"
         },
         "compareAtPrice": null
@@ -321,17 +321,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "1865150",
+        "amount": "27977250",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "1865150",
+        "amount": "27977250",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "2664050",
+        "amount": "39960750",
         "currencyCode": "VND"
       }
     },
@@ -375,11 +375,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1865150",
+          "amount": "27977250",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2664050",
+          "amount": "39960750",
           "currencyCode": "VND"
         }
       },
@@ -394,11 +394,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1865150",
+          "amount": "27977250",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2664050",
+          "amount": "39960750",
           "currencyCode": "VND"
         }
       },
@@ -413,11 +413,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1865150",
+          "amount": "27977250",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2664050",
+          "amount": "39960750",
           "currencyCode": "VND"
         }
       }
@@ -441,17 +441,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "1139960",
+        "amount": "170994000",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "1139960",
+        "amount": "170994000",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "0.0",
+        "amount": "0",
         "currencyCode": "VND"
       }
     },
@@ -496,7 +496,7 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1139960",
+          "amount": "170994000",
           "currencyCode": "VND"
         },
         "compareAtPrice": null
@@ -521,17 +521,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "1421060",
+        "amount": "21315900",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "1421060",
+        "amount": "21315900",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "1865150",
+        "amount": "27977250",
         "currencyCode": "VND"
       }
     },
@@ -576,11 +576,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1421060",
+          "amount": "21315900",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "1865150",
+          "amount": "27977250",
           "currencyCode": "VND"
         }
       }
@@ -615,17 +615,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "1598700",
+        "amount": "23980500",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "1598700",
+        "amount": "23980500",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "2486900",
+        "amount": "37303500",
         "currencyCode": "VND"
       }
     },
@@ -686,11 +686,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1598700",
+          "amount": "23980500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2486900",
+          "amount": "37303500",
           "currencyCode": "VND"
         }
       },
@@ -709,11 +709,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1598700",
+          "amount": "23980500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2486900",
+          "amount": "37303500",
           "currencyCode": "VND"
         }
       },
@@ -732,11 +732,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1598700",
+          "amount": "23980500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2486900",
+          "amount": "37303500",
           "currencyCode": "VND"
         }
       },
@@ -755,11 +755,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1598700",
+          "amount": "23980500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2486900",
+          "amount": "37303500",
           "currencyCode": "VND"
         }
       },
@@ -778,11 +778,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1598700",
+          "amount": "23980500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2486900",
+          "amount": "37303500",
           "currencyCode": "VND"
         }
       },
@@ -801,11 +801,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1598700",
+          "amount": "23980500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2486900",
+          "amount": "37303500",
           "currencyCode": "VND"
         }
       },
@@ -824,11 +824,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1598700",
+          "amount": "23980500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2486900",
+          "amount": "37303500",
           "currencyCode": "VND"
         }
       },
@@ -847,11 +847,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1598700",
+          "amount": "23980500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2486900",
+          "amount": "37303500",
           "currencyCode": "VND"
         }
       },
@@ -870,11 +870,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "1598700",
+          "amount": "23980500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "2486900",
+          "amount": "37303500",
           "currencyCode": "VND"
         }
       }
@@ -898,17 +898,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "31100",
+        "amount": "466500",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "31100",
+        "amount": "466500",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "37800",
+        "amount": "567000",
         "currencyCode": "VND"
       }
     },
@@ -952,11 +952,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "31100",
+          "amount": "466500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "37800",
+          "amount": "567000",
           "currencyCode": "VND"
         }
       }
@@ -980,17 +980,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "26640",
+        "amount": "399600",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "26640",
+        "amount": "399600",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "33300",
+        "amount": "499500",
         "currencyCode": "VND"
       }
     },
@@ -1034,11 +1034,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "26640",
+          "amount": "399600",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "33300",
+          "amount": "499500",
           "currencyCode": "VND"
         }
       }
@@ -1073,17 +1073,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "839300",
+        "amount": "12589500",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "839300",
+        "amount": "12589500",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "932600",
+        "amount": "13989000",
         "currencyCode": "VND"
       }
     },
@@ -1143,11 +1143,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "839300",
+          "amount": "12589500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "932600",
+          "amount": "13989000",
           "currencyCode": "VND"
         }
       },
@@ -1166,11 +1166,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "839300",
+          "amount": "12589500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "932600",
+          "amount": "13989000",
           "currencyCode": "VND"
         }
       },
@@ -1189,11 +1189,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "839300",
+          "amount": "12589500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "932600",
+          "amount": "13989000",
           "currencyCode": "VND"
         }
       },
@@ -1212,11 +1212,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "839300",
+          "amount": "12589500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "932600",
+          "amount": "13989000",
           "currencyCode": "VND"
         }
       },
@@ -1235,11 +1235,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "839300",
+          "amount": "12589500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "932600",
+          "amount": "13989000",
           "currencyCode": "VND"
         }
       },
@@ -1258,11 +1258,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "839300",
+          "amount": "12589500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "932600",
+          "amount": "13989000",
           "currencyCode": "VND"
         }
       },
@@ -1281,11 +1281,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "839300",
+          "amount": "12589500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "932600",
+          "amount": "13989000",
           "currencyCode": "VND"
         }
       },
@@ -1304,11 +1304,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "839300",
+          "amount": "12589500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "932600",
+          "amount": "13989000",
           "currencyCode": "VND"
         }
       },
@@ -1327,11 +1327,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "839300",
+          "amount": "12589500",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "932600",
+          "amount": "13989000",
           "currencyCode": "VND"
         }
       }
@@ -1355,17 +1355,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "13320",
+        "amount": "199800",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "13320",
+        "amount": "199800",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "17763",
+        "amount": "266445",
         "currencyCode": "VND"
       }
     },
@@ -1409,11 +1409,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "13320",
+          "amount": "199800",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "17763",
+          "amount": "266445",
           "currencyCode": "VND"
         }
       }
@@ -1447,17 +1447,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "346384",
+        "amount": "5195760",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "346384",
+        "amount": "5195760",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "364147",
+        "amount": "5462205",
         "currencyCode": "VND"
       }
     },
@@ -1543,11 +1543,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "346384",
+          "amount": "5195760",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "364147",
+          "amount": "5462205",
           "currencyCode": "VND"
         }
       },
@@ -1566,11 +1566,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "346384",
+          "amount": "5195760",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "364147",
+          "amount": "5462205",
           "currencyCode": "VND"
         }
       },
@@ -1589,11 +1589,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "346384",
+          "amount": "5195760",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "364147",
+          "amount": "5462205",
           "currencyCode": "VND"
         }
       },
@@ -1612,11 +1612,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "346384",
+          "amount": "5195760",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "364147",
+          "amount": "5462205",
           "currencyCode": "VND"
         }
       },
@@ -1635,11 +1635,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "346384",
+          "amount": "5195760",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "364147",
+          "amount": "5462205",
           "currencyCode": "VND"
         }
       },
@@ -1658,11 +1658,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "346384",
+          "amount": "5195760",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "364147",
+          "amount": "5462205",
           "currencyCode": "VND"
         }
       }
@@ -1695,17 +1695,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "153208",
+        "amount": "2298120",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "153208",
+        "amount": "2298120",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "168751",
+        "amount": "2531265",
         "currencyCode": "VND"
       }
     },
@@ -1791,11 +1791,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "153208",
+          "amount": "2298120",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "168751",
+          "amount": "2531265",
           "currencyCode": "VND"
         }
       },
@@ -1814,11 +1814,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "153208",
+          "amount": "2298120",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "168751",
+          "amount": "2531265",
           "currencyCode": "VND"
         }
       },
@@ -1837,11 +1837,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "153208",
+          "amount": "2298120",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "168751",
+          "amount": "2531265",
           "currencyCode": "VND"
         }
       },
@@ -1860,11 +1860,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "153208",
+          "amount": "2298120",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "168751",
+          "amount": "2531265",
           "currencyCode": "VND"
         }
       }
@@ -1899,17 +1899,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "43964",
+        "amount": "659460",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "43964",
+        "amount": "659460",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "48849",
+        "amount": "732735",
         "currencyCode": "VND"
       }
     },
@@ -1969,11 +1969,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "43964",
+          "amount": "659460",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "48849",
+          "amount": "732735",
           "currencyCode": "VND"
         }
       },
@@ -1992,11 +1992,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "43964",
+          "amount": "659460",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "48849",
+          "amount": "732735",
           "currencyCode": "VND"
         }
       },
@@ -2015,11 +2015,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "43964",
+          "amount": "659460",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "48849",
+          "amount": "732735",
           "currencyCode": "VND"
         }
       },
@@ -2038,11 +2038,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "43964",
+          "amount": "659460",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "48849",
+          "amount": "732735",
           "currencyCode": "VND"
         }
       },
@@ -2061,11 +2061,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "43964",
+          "amount": "659460",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "48849",
+          "amount": "732735",
           "currencyCode": "VND"
         }
       },
@@ -2084,11 +2084,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "43964",
+          "amount": "659460",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "48849",
+          "amount": "732735",
           "currencyCode": "VND"
         }
       },
@@ -2107,11 +2107,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "43964",
+          "amount": "659460",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "48849",
+          "amount": "732735",
           "currencyCode": "VND"
         }
       },
@@ -2130,11 +2130,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "43964",
+          "amount": "659460",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "48849",
+          "amount": "732735",
           "currencyCode": "VND"
         }
       },
@@ -2153,11 +2153,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "43964",
+          "amount": "659460",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "48849",
+          "amount": "732735",
           "currencyCode": "VND"
         }
       }
@@ -2183,17 +2183,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "333060",
+        "amount": "4995900",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "0.0",
+        "amount": "0",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "364147",
+        "amount": "5462205",
         "currencyCode": "VND"
       }
     },
@@ -2294,11 +2294,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "333060",
+          "amount": "4995900",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "364147",
+          "amount": "5462205",
           "currencyCode": "VND"
         }
       },
@@ -2313,11 +2313,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "310857",
+          "amount": "46628755",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "346384",
+          "amount": "5195760",
           "currencyCode": "VND"
         }
       },
@@ -2332,7 +2332,7 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "0.0",
+          "amount": "0",
           "currencyCode": "VND"
         },
         "compareAtPrice": null
@@ -2368,17 +2368,17 @@ export const data: Product[] = [
     ],
     "priceRange": {
       "maxVariantPrice": {
-        "amount": "266450",
+        "amount": "3996750",
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "266450",
+        "amount": "3996750",
         "currencyCode": "VND"
       }
     },
     "compareAtPriceRange": {
       "maxVariantPrice": {
-        "amount": "386351",
+        "amount": "5795265",
         "currencyCode": "VND"
       }
     },
@@ -2506,11 +2506,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "266450",
+          "amount": "3996750",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "386351",
+          "amount": "5795265",
           "currencyCode": "VND"
         }
       },
@@ -2529,11 +2529,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "266450",
+          "amount": "3996750",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "386351",
+          "amount": "5795265",
           "currencyCode": "VND"
         }
       },
@@ -2552,11 +2552,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "266450",
+          "amount": "3996750",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "386351",
+          "amount": "5795265",
           "currencyCode": "VND"
         }
       },
@@ -2575,11 +2575,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "266450",
+          "amount": "3996750",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "386351",
+          "amount": "5795265",
           "currencyCode": "VND"
         }
       },
@@ -2598,11 +2598,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "266450",
+          "amount": "3996750",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "386351",
+          "amount": "5795265",
           "currencyCode": "VND"
         }
       },
@@ -2621,11 +2621,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "266450",
+          "amount": "3996750",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "386351",
+          "amount": "5795265",
           "currencyCode": "VND"
         }
       },
@@ -2644,11 +2644,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "266450",
+          "amount": "3996750",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "386351",
+          "amount": "5795265",
           "currencyCode": "VND"
         }
       },
@@ -2667,11 +2667,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "266450",
+          "amount": "3996750",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "386351",
+          "amount": "5795265",
           "currencyCode": "VND"
         }
       },
@@ -2690,11 +2690,11 @@ export const data: Product[] = [
           }
         ],
         "price": {
-          "amount": "266450",
+          "amount": "3996750",
           "currencyCode": "VND"
         },
         "compareAtPrice": {
-          "amount": "386351",
+          "amount": "5795265",
           "currencyCode": "VND"
         }
       }

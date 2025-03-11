@@ -39,7 +39,6 @@ export function VariantSelector({
   });
   const imageMap = generateImageMap(images);
 
-  console.log(images, imageMap, options);
   useEffect(() => {
     const searchParams = new URLSearchParams(window.location.search);
     const color = searchParams.get("color");

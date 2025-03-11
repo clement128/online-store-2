@@ -2177,7 +2177,6 @@ export const data: Product[] = [
         "values": [
           "Antique Brass",
           "Black",
-          "Default Title"
         ]
       }
     ],
@@ -2187,7 +2186,7 @@ export const data: Product[] = [
         "currencyCode": "VND"
       },
       "minVariantPrice": {
-        "amount": "0",
+        "amount": "4995900",
         "currencyCode": "VND"
       }
     },
@@ -2321,22 +2320,6 @@ export const data: Product[] = [
           "currencyCode": "VND"
         }
       },
-      {
-        "id": "gid://shopify/ProductVariant/51817023897965",
-        "title": "Default Title",
-        "availableForSale": true,
-        "selectedOptions": [
-          {
-            "name": "Color",
-            "value": "Default Title"
-          }
-        ],
-        "price": {
-          "amount": "0",
-          "currencyCode": "VND"
-        },
-        "compareAtPrice": null
-      }
     ]
   },
   {
